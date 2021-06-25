@@ -10,7 +10,7 @@ public class TestPunto {
     static Scanner datos = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("Cuantos movientos desea realizar?: ");
+        System.out.println("Cuantos movimientos desea realizar?: ");
         int n = 0;
         while (n < 1) {
             n = datos.nextInt();
@@ -65,7 +65,7 @@ public class TestPunto {
         System.out.println("--------------------------");
         distancia = sqrt(pow((dirX), 2) + pow((dirY), 2));
 
-        System.out.printf("La distancia final recorrida al origen es de: %.2f\n", distancia);
+        System.out.printf("La distancia del punto final al origen es de: %.2f\n", distancia);
         System.out.printf("La suma de todas las distancias es de: %.2f\n", sumaD);
     }
 
